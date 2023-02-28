@@ -83,3 +83,18 @@ menu.push('carne');
 menu[6] = 'chocolate';
 
 console.log(menu);
+
+
+let marina = 27;
+let silvia = 18;
+let iza = 63;
+
+if(marina < silvia && marina < iza){
+    console.log('marina');
+}
+
+else if (silvia < marina && silvia < iza){
+    console.log('silvia');
+}
+else{
+    console.log('iza');
